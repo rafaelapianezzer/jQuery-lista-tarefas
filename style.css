@@ -1,0 +1,48 @@
+* {
+   
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+header {
+    background-color: rgb(216, 132, 249);
+    padding: 16px 0;
+    color:#fff;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header button {
+    margin-left: 16px;
+    background-color: #e074f5;
+    color: aliceblue;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(216, 132, 249);
+    padding: 24 0;
+}
+
+input button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#lista {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#lista-tarefa {
+    justify-content: center;
+}
